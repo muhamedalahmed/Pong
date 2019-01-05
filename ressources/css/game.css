@@ -1,0 +1,92 @@
+body{
+    background-color: #030033;
+}
+#game{
+    height:  600px;
+    width: 800px;
+    border: 1px solid #fff;
+    margin:  0 auto;
+    position: relative;
+}
+.paddle{
+    height: 150px;
+    width:  25px;
+    position: absolute;
+    border-radius: 20px;
+}
+.paddle.a{
+    background-color: green;
+    left: 0;
+}
+.paddle.b{
+    background-color: red;
+    right: 0;
+}
+.paddle.c,.paddle.d{
+    height: 25px;
+    width:  150px;
+    position: absolute;
+    border-radius: 20px;
+    bottom: 0;
+    background-color: orange; 
+}
+.paddle.d{
+    top: 0;
+    background-color: pink;
+}
+
+.ball{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    width: 25px;
+    height: 25px;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+
+
+
+.pointer{
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    color: #333;
+    background: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pointer.a,.pointer.b{
+    top: 30px;
+}
+.pointer.a,.pointer.c{
+      left: 100px;  
+}
+.pointer.b,.pointer.d{
+    right: 100px;
+}
+.pointer.c,.pointer.d{
+        top: 550px;
+}
+.pointer.a{
+    background-color: green;
+}
+.pointer.b{
+    background-color: red;
+}
+.pointer.c{
+    background-color: orange;
+}
+.pointer.d{
+    background-color: pink;
+}
+.control{
+    position: absolute;
+    bottom: 50px;
+    margin-left: 200px;
+}
+.control span{
+    margin-right: 30px;
+}
+
